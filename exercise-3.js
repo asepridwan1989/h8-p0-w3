@@ -1,6 +1,6 @@
 // tugas week3 exercise-3
 function dataHandling(){
-  for (i = 0; i<input.length-1; i++){
+  for (i = 0; i<input.length; i++){
     console.log('Nomor ID: ' + input[i][0]);
     console.log('Nama Lengkap: ' + input[i][1]);
     console.log('TTL: ' + input[i][2]+' '+input[i][3]);
