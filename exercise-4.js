@@ -1,9 +1,9 @@
 function dataHandling2(){
-  output.splice(1,1,"Roman Alamsyah Elsharawy");
-  output.splice(2,1,"Provinsi Bandar Lampung");
-  output.splice(3,0,"Pria");
-  output.splice(5,1,"SMA Internasional Metro");
-  var tanggal2 = output[4].split('/');
+  input.splice(1,1,"Roman Alamsyah Elsharawy");
+  input.splice(2,1,"Provinsi Bandar Lampung");
+  input.splice(3,0,"Pria");
+  input.splice(5,1,"SMA Internasional Metro");
+  var tanggal2 = input[4].split('/');
 //console.log(tanggal2);
   intTanggal2 = [];
   for (i=0; i<3;i++){
@@ -15,7 +15,7 @@ function dataHandling2(){
   }
 
   //console.log(intTanggal2);
-  console.log(output);
+  console.log(input);
   var bulan = tanggal2[1].slice(0,2);
   //console.log(bulan);
   switch(bulan){
@@ -58,7 +58,7 @@ function dataHandling2(){
   }
   console.log(intTanggal2.sort(function(value1, value2) { return value2 > value1 }));
   console.log(tanggal2.join('-'));
-  console.log (nama = output[1].slice(0,15));
+  console.log (nama = input[1].slice(0,15));
 }
-var output = ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"];
-dataHandling2(output);
+var input = ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"];
+dataHandling2(input);
