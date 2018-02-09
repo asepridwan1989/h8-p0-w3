@@ -1,9 +1,9 @@
 function dataHandling2(){
   input.splice(1,1,"Roman Alamsyah Elsharawy");
   input.splice(2,1,"Provinsi Bandar Lampung");
-  input.splice(3,0,"Pria");
+  input.splice(4,0,"Pria");
   input.splice(5,1,"SMA Internasional Metro");
-  var tanggal2 = input[4].split('/');
+  var tanggal2 = input[3].split('/');
 //console.log(tanggal2);
   intTanggal2 = [];
   for (i=0; i<3;i++){
