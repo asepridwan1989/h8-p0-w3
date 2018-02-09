@@ -19,7 +19,6 @@ function groupAnimals(animals) {
     }
   }
   return arrResult;
-
 }
 
 // TEST CASES
